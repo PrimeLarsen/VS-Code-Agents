@@ -2,6 +2,8 @@
 
 **Goal:** configure how Vibe Code itself behaves in this repo, and understand the trust model.
 
+> **Copilot-only team? You can skip this module.** Modules 01, 02, and 04 work with GitHub Copilot through `AGENTS.md` and skills alone; this module covers Vibe Code-specific configuration only.
+
 ## Theory (10 min)
 
 Vibe Code (the **Mistral Vibe** VS Code extension, the CLI, or Vibe Desktop) supports project-level configuration in a **`.vibe/` directory at the repo root**. It can contain:
@@ -21,12 +23,12 @@ Vibe Code (the **Mistral Vibe** VS Code extension, the CLI, or Vibe Desktop) sup
 
 ## Exercise (25 min)
 
-1. In the project you cloned for module 01, create a `.vibe/config.toml` with one sensible restriction for your project (for example, disable a tool or restrict shell commands), plus one custom prompt in `.vibe/prompts/`.
+1. In the project you cloned for module 01, create a `.vibe/config.toml` with one sensible restriction for your project (for example, restrict shell commands), plus one custom prompt as a markdown file in `.vibe/prompts/` (e.g. `.vibe/prompts/review-change.md`, usable in chat as `/review-change`).
 2. Restart the Vibe Code session and confirm the trust dialog appears; read every item before clicking **Trust folder**.
 3. Verify the restriction actually applies: ask the agent to do something the config forbids and watch it refuse or ask.
-4. Compare with `solution/.vibe/config.toml`.
+4. Compare with `solution/.vibe/` (the `config.toml` and the example prompt).
 
-**Bonus:** put a `reviewer` agent in `.vibe/agents/` that always runs the UI test reviewer skill from module 02 before reporting.
+**Bonus:** put a `reviewer` agent in `.vibe/agents/` that always runs the UI test reviewer skill from module 02 before reporting. A ready-made agent file ships at `templates/vibe/agents/reviewer.toml` (from the repo root).
 
 ## Debrief (5 min)
 

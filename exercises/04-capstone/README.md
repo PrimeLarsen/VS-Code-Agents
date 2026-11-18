@@ -16,7 +16,7 @@ Apply the layers to the project you cloned (golden repo or your real project):
    ```
 
 2. **A skill** with the full review procedure (`.agents/skills/ui-test-reviewer/`)
-3. **A CI backstop**: run the test suite on every push, because agents are consistent, not infallible — the rule makes the agent write the tests; CI makes the tests count
+3. **A CI backstop**: run the test suite on every push, because agents are consistent, not infallible — the rule makes the agent write the tests; CI makes the tests count (a starting workflow is in `templates/team/ci-tests.yml`)
 
 Optional for Vibe Code users: a `.vibe/` config restricting tools to what the project actually needs.
 

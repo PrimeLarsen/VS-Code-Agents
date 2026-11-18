@@ -1,0 +1,22 @@
+# Copy this file to .github/workflows/tests.yml and adapt the commands to your project.
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions: read-all
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # ADAPT: install dependencies and run your test suite, for example:
+      # - uses: actions/setup-node@v4
+      #   with:
+      #     node-version: 22
+      # - run: npm ci
+      # - run: npm test
+      - run: 'echo "ADAPT — add your install + test commands above (e.g. npm ci && npm test)"'
