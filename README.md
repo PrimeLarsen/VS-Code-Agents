@@ -54,8 +54,13 @@ exercises/
   03-vibe-config/    Vibe Code: .vibe/ config, trust, tool permissions
   04-capstone/       Combine everything on your own project
 templates/
-  AGENTS.generic.md       Copy-paste starting point for any repo
-  AGENTS.powerapps.md     Ready-made policy for Power Apps projects
+  AGENTS.generic.md          Copy-paste starting point for any repo
+  AGENTS.powerapps.md        Ready-made policy for Power Apps projects
+  skills/ui-test-reviewer/   The module 02 skill as a ready-made template
+  vibe/agents/reviewer.toml  The module 03 bonus agent as a ready-made template
+  team/                      Copy into your own repo: CODEOWNERS, PR template, TEST-REPORT seed, CI workflow
+docs/
+  adopting-in-your-team-repo.md  Personal vs team-shared setup (golden repo, plugins), what goes where, rollout checklist
 facilitator-notes.md      Timing, discussion prompts, common pitfalls
 CONTRIBUTING.md           How to propose changes and ask questions
 LICENSE                   MIT — free to use, adapt, and share
@@ -66,6 +71,10 @@ LICENSE                   MIT — free to use, adapt, and share
 1. Everyone clones this workshop repo and the project they will test on.
 2. Each module has a `README.md` with theory and an exercise. Solutions live in `solution/` — try first, compare after.
 3. Use `templates/` as starting points during the exercises.
+
+## Using this in your own project and team
+
+After the workshop, [docs/adopting-in-your-team-repo.md](docs/adopting-in-your-team-repo.md) covers how to apply the setup to your real repos: whether the agent setup is **personal only** (user-level `~/.vibe/`), **per project** (committed `AGENTS.md` + skills), or **team-wide** (a golden repo everyone clones from, or an installable Vibe plugin) — plus a what-goes-where table and a rollout checklist. Ready-made files for your own repo live in `templates/team/`.
 
 ## FAQ for participants
 

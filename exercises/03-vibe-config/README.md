@@ -28,7 +28,7 @@ Vibe Code (the **Mistral Vibe** VS Code extension, the CLI, or Vibe Desktop) sup
 3. Verify the restriction actually applies: ask the agent to do something the config forbids and watch it refuse or ask.
 4. Compare with `solution/.vibe/` (the `config.toml` and the example prompt).
 
-**Bonus:** put a `reviewer` agent in `.vibe/agents/` that always runs the UI test reviewer skill from module 02 before reporting.
+**Bonus:** put a `reviewer` agent in `.vibe/agents/` that always runs the UI test reviewer skill from module 02 before reporting. A ready-made agent file ships at `templates/vibe/agents/reviewer.toml` (from the repo root).
 
 ## Debrief (5 min)
 

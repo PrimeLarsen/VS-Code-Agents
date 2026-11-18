@@ -1,0 +1,7 @@
+# Copy this file to .github/CODEOWNERS (or CODEOWNERS in the repo root).
+# Agent configuration changes how agents behave: review it like code.
+# ADAPT: replace @your-team with your GitHub team slug or usernames.
+/AGENTS.md @your-team
+/.github/copilot-instructions.md @your-team
+/.agents/ @your-team
+/.vibe/ @your-team

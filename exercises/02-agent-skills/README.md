@@ -17,7 +17,7 @@
 2. Give it a description that triggers on UI changes and code review requests.
 3. Write the procedure: check the diff for UI code, verify a test exists per the project policy, run the suite, append the run to `tests/results/TEST-REPORT.md`, report gaps.
 4. Test it: ask the agent "review my last change for test coverage" and watch it follow the steps.
-5. Compare with `solution/.agents/skills/ui-test-reviewer/SKILL.md`.
+5. Compare with `solution/.agents/skills/ui-test-reviewer/SKILL.md`. A ready-made copy also ships as a template at `templates/skills/ui-test-reviewer/SKILL.md` (from the repo root).
 
 **Bonus:** add a checklist file inside the skill folder and reference it from `SKILL.md`. Skills can carry their own supporting files.
 
