@@ -19,6 +19,7 @@
 - If you prepare the golden repo yourself, plant one deliberate UI bug to give module 04 something to catch.
 - Test every exercise yourself on the exact tool versions the team uses, the week before.
 - Have the two templates printed or bookmarked.
+- Decide before the session whether module 03 runs, and announce it in the welcome: Copilot-only teams skip it (see the timing table), so nobody feels they are falling behind.
 
 ## Discussion prompts that work
 

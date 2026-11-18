@@ -10,6 +10,8 @@ You will learn three mechanisms, and when to use each:
 | Agent Skills (`.agents/skills/`) | Reusable on-demand procedures | Multi-step workflows the agent runs *when relevant* |
 | `.vibe/` project config | Vibe Code-specific configuration (permissions, prompts, tools) | Locking down or extending *Vibe Code behavior* in this repo |
 
+The first two mechanisms are tool-agnostic and work with GitHub Copilot out of the box. The third one is specific to Mistral Vibe Code — **Copilot-only teams can skip it (module 03)**.
+
 ## Format
 
 Four modules, about 3 hours of content (each module: ~10 min theory, ~25 min exercise, ~5 min debrief). Runs as one half-day session — ~3.5 h including welcome, breaks, and retro, see [facilitator-notes.md](facilitator-notes.md) — or as four separate sessions.
@@ -21,12 +23,14 @@ Four modules, about 3 hours of content (each module: ~10 min theory, ~25 min exe
 | 03 | Vibe Code project configuration | A `.vibe/` setup with sensible tool limits |
 | 04 | Capstone: wire it all together | An agent that never says "all OK" before tests pass |
 
+**Module 03 is optional.** It covers Vibe Code-specific configuration; if your team works mainly with GitHub Copilot, skip it — modules 01, 02, and 04 run entirely on `AGENTS.md` and skills, which Copilot reads natively.
+
 ## Prerequisites
 
 - VS Code with the **GitHub Copilot** extension and/or the **Mistral Vibe** extension installed
 - A project to experiment on: **any real project you are working on** (if your team already has a "golden repo" from a previous session, use that). You will build the agent setup directly on that project, so everything you do here is reusable on Monday.
 - Basic experience asking an AI agent for code changes
-- For module 3: the Vibe Code extension ([overview](https://docs.mistral.ai/vibe/code/overview))
+- Only if you run module 03 (optional — skip it if your team only uses Copilot): the Vibe Code extension ([overview](https://docs.mistral.ai/vibe/code/overview))
 
 ## What you end up with
 

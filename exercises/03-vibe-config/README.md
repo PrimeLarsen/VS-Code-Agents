@@ -2,6 +2,8 @@
 
 **Goal:** configure how Vibe Code itself behaves in this repo, and understand the trust model.
 
+> **Copilot-only team? You can skip this module.** Modules 01, 02, and 04 work with GitHub Copilot through `AGENTS.md` and skills alone; this module covers Vibe Code-specific configuration only.
+
 ## Theory (10 min)
 
 Vibe Code (the **Mistral Vibe** VS Code extension, the CLI, or Vibe Desktop) supports project-level configuration in a **`.vibe/` directory at the repo root**. It can contain:
