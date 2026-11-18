@@ -1,0 +1,9 @@
+# Example Vibe Code project configuration.
+# Docs: https://docs.mistral.ai/vibe/code/safety-approvals-permissions
+# Vibe Code only loads this file from folders you have explicitly trusted.
+
+# Example: tighten tool access for this project.
+# enabled_tools = ["read_file", "edit", "write_file", "bash", "skill"]
+
+# Example: disable a tool entirely for this repo.
+# disabled_tools = ["bash"]
