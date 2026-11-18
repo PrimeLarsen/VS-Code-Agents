@@ -7,3 +7,10 @@
 
 # Example: disable a tool entirely for this repo.
 # disabled_tools = ["bash"]
+
+# Active example for this workshop: keep shell access, but never let the agent
+# run destructive commands — even if someone asks it to "just clean up".
+# Note: a denylist blocks matching commands; for a hard block, run Vibe in a sandbox.
+[tools.bash]
+permission = "ask"
+denylist = ["rm -rf", "git push --force", "git reset --hard"]

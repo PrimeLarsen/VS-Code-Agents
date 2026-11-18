@@ -16,7 +16,7 @@ Notes:
   - A defined place where tests and test results live, so nothing disappears into chat history
   - Explicit priorities when rules conflict (e.g. "security rules win over speed")
   - What NOT to do ("never commit directly to main", "never install packages without asking")
-- **What fails:** vague aspirations, 500-line walls of text (agents drift), rules that contradict what the user asks in chat — tell users that when they want an exception, they must say so explicitly.
+- **What fails:** vague aspirations, long walls of text (past ~150 lines agents start skipping — move procedures into skills), rules that contradict what the user asks in chat — tell users that when they want an exception, they must say so explicitly.
 
 ## Exercise (25 min)
 

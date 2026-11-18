@@ -21,10 +21,10 @@ Vibe Code (the **Mistral Vibe** VS Code extension, the CLI, or Vibe Desktop) sup
 
 ## Exercise (25 min)
 
-1. In the project you cloned for module 01, create a `.vibe/config.toml` with one sensible restriction for your project (for example, disable a tool or restrict shell commands), plus one custom prompt in `.vibe/prompts/`.
+1. In the project you cloned for module 01, create a `.vibe/config.toml` with one sensible restriction for your project (for example, restrict shell commands), plus one custom prompt as a markdown file in `.vibe/prompts/` (e.g. `.vibe/prompts/review-change.md`, usable in chat as `/review-change`).
 2. Restart the Vibe Code session and confirm the trust dialog appears; read every item before clicking **Trust folder**.
 3. Verify the restriction actually applies: ask the agent to do something the config forbids and watch it refuse or ask.
-4. Compare with `solution/.vibe/config.toml`.
+4. Compare with `solution/.vibe/` (the `config.toml` and the example prompt).
 
 **Bonus:** put a `reviewer` agent in `.vibe/agents/` that always runs the UI test reviewer skill from module 02 before reporting.
 
